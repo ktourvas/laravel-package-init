@@ -1,0 +1,13 @@
+{
+  "name": "{vendorname}/{packagename}",
+  "description": "Laravel package project",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "{PackageNamespaceDouble}\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {}
+}
