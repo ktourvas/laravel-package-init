@@ -1,8 +1,8 @@
-#Laravel package boilerplate
+# Laravel package boilerplate
 
 A little handy initializer for people working on multiple laravel packages
 
-##Getting started
+## Getting started
 
 Clone this repository into a suitable folder on your local development station and delete the .git folder.   
 
@@ -34,7 +34,7 @@ You may then delete the scripts folder as well since there is no need for the co
 
 After the above, you can start working on your package as suited. 
 
-##Managing assets 
+## Managing assets 
 The boilerplate comes with a package.json file as the one found in a fresh laravel installation and a webpack.mix.js to be used by laravel-mix. 
 
 If you open webpack.mix.js you will see the following setup 
@@ -98,7 +98,7 @@ start working and compile as suited
 npm run dev / watch / prod 
 ``` 
 
-##Require in Laravel
+## Require in Laravel
 
 ### locally
 Add a repositories object in your laravel's composer.json file and add 
