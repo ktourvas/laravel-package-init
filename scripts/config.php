@@ -2,11 +2,11 @@
 
 echo "Welcome to the laravel package initializer\n";
 
-echo "Please set input the vendor name for your package: ";
+echo "Please input the vendor name for your package: ";
 $vendor = rtrim(fgets(STDIN));
 echo "Ok the package's vendor name is changed to:" . $vendor."\n";
 
-echo "Please set input the package name for your package: ";
+echo "Please input the package name for your package: ";
 $name = rtrim(fgets(STDIN));
 echo "Ok the package's name is changed to:" . $name."\n";
 
